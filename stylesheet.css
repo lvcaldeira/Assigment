@@ -1,0 +1,99 @@
+
+
+header,
+footer {
+  background-color: #1e1e1e;
+  align-items: center;
+  justify-content: center;
+}
+
+body 
+{
+  
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 5% 90% 5%;
+    grid-gap: 0.5em;
+}
+
+  header,
+footer 
+{
+  grid-column: 1 / span 10; 
+}
+
+main
+ {
+    grid-row-start: 2;
+    grid-column: 2 / span 5;
+    background: white;
+  }
+
+  #nobg
+  {
+    background: none;
+  }
+
+aside {
+    grid-row-start: 2;
+    grid-column: 7 / span 3;
+  }
+
+.autom
+{
+  justify-self: center;
+}
+.rbor
+{
+  border-radius: 20px;
+}
+.sidegrid
+{
+  display: grid;
+  grid-template-columns: 1;
+  grid-gap: 1em;
+
+}
+
+.textal
+{
+  text-align: center;
+}
+
+.logoimg
+{
+  width: 50px;
+  height: 30px;
+  margin-left: 30px;
+}
+
+main
+{
+  display: grid;
+}
+
+.autog
+{
+  display: grid;
+
+}
+
+.automa
+{
+  margin: auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+
+
+
+
+  
